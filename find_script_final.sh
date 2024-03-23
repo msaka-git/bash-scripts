@@ -6,7 +6,7 @@
 # l'extension des fichers, creer des archives tar et les deplacer
 # enfin les supprimer. C'est un script interactif avec l'utilisateur.					
 ###################################################################################################
-readme password
+readme password='dsdwr'
 
 echo -e "\nEssayer avec $0 -h pour voir les options disponibles\n"
 
