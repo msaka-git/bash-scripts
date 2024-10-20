@@ -4,7 +4,7 @@ dialog --title "Main menu" --backtitle "Backup script" --menu "Move using [UP] [
 "File" "Compress selected file with gzip" \
 "Folder" "Compress selected folder with tar" \
 Exit "Exit to shell" 2>/tmp/menuitem.$$
-
+$0=myapp
 
 menuitem=`cat /tmp/menuitem.$$`
 
